@@ -231,6 +231,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         
         self.courseLabelArray.append(courseInfoLabel)
         let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.editCourse(_:)))
+        
         courseInfoLabel.addGestureRecognizer(tap)
         courseInfoLabel.userInteractionEnabled = true
 
